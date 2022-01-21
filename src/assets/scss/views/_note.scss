@@ -1,0 +1,63 @@
+#note-body {
+  min-height: 400px;
+  width: 450px;
+  border-radius: 16px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  flex-direction: column;
+
+  #note-input {
+    font-size: 28pt;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #colour-picker {
+    position: absolute;
+    bottom: 30px;
+    left: 50px
+  }
+  #character-count {
+    position: absolute;
+    bottom: 30px;
+    right: 50px
+  }
+}
+
+.note-preview {
+  font-size: 26pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+
+  .note-header{
+    display: flex;
+    border-bottom: 1px dotted grey;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 24px;
+    margin-bottom: 8px;
+  }
+  .note-tag {
+    font-size: 12pt;
+    padding: 8px 12px;
+    background-color: #1d2020;
+    border-radius: 24px;
+    align-items: center;
+  }
+  .note-text {
+    padding: 10px 24px;
+  }
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}

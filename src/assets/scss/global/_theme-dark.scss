@@ -1,0 +1,11 @@
+// TODO Dark theme styling
+#app.theme-dark {
+  #topbar {
+    @extend .navbar-dark;
+    @extend .bg-dark;
+  }
+
+  .navbar-brand svg {
+    fill: #ffffff;
+  }
+}

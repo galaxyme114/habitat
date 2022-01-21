@@ -1,0 +1,34 @@
+@import '~bootstrap/scss/functions';
+@import 'global/variables';
+@import 'bootstrap/bootstrap';
+
+@import '~bootstrap-vue/src/index.scss';
+
+@import 'global/fonts';
+@import 'global/avatars';
+@import 'global/mixins';
+@import 'global/typography';
+@import 'global/lists';
+@import 'global/theme-dark';
+@import 'global/vue-animations';
+
+@import 'layout/base';
+@import 'layout/buttons';
+@import 'layout/forms';
+
+@import 'components/topbar';
+@import 'components/buttons';
+@import 'components/notifications';
+@import 'components/modals';
+
+@import 'views/auth';
+@import 'views/habitats';
+@import 'views/room-plans';
+@import 'views/explore';
+@import 'views/article';
+@import 'views/note';
+@import 'views/projects';
+@import 'views/feeds';
+@import 'views/common';
+@import 'views/follow';
+@import 'views/notifications';

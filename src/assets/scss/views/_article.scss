@@ -1,0 +1,67 @@
+.image-tool__image-picture {
+  width: 100%
+}
+
+#editorjs {
+  padding: 0px 25px;
+}
+
+.height {
+  max-height: 300px;
+  width: auto
+}
+
+.article-owner {
+  padding-left: 16px;
+
+  img {
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+    border: 1px solid white;
+  }
+
+  .article-text {
+    margin: 5px 10px 0px 10px;
+    margin-left: 10px;
+    font-size: 12pt;
+  }
+}
+
+.article-content {
+  @include media-breakpoint-down(lg) {
+    width: 100% !important;
+  }
+}
+
+.article-preview {
+  border-radius: 16px;
+
+  .card-img-top {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+
+  .title {
+    font-size: 16pt;
+    margin-bottom: 16px;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 16px;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .description {
+      font-size: 14px;
+    }
+  }
+
+  .creator {
+    font-size: 12pt;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 13px;
+    }
+  }
+}

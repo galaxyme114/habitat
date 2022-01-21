@@ -1,0 +1,131 @@
+// Spinner animation
+.habitat-fade-spinner-enter {
+  opacity: 0;
+}
+
+.habitat-fade-spinner-enter-active {
+  transition: opacity 0.8s;
+}
+
+.habitat-fade-spinner-leave-active {
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+// Image hover animation
+.habitat-fade-image-enter {
+  opacity: 0;
+}
+
+.habitat-fade-image-enter-active {
+  transition: opacity 1s;
+}
+
+.habitat-fade-image-leave-active {
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+// Messages box and text animation
+.habitat-fade-message-enter {
+  opacity: 0;
+}
+
+.habitat-fade-message-enter-active {
+  transition: opacity 0.5s;
+}
+
+.habitat-fade-message-leave-active {
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+// Menu animation
+.habitat-slide-left-enter-active,
+.habitat-slide-right-enter-active {
+  transition: all 0.3s ease;
+  transition-property: transform, opacity;
+}
+
+.habitat-slide-left-leave-active,
+.habitat-slide-right-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+  transition-property: transform, opacity;
+}
+
+.habitat-slide-left-enter,
+.habitat-slide-left-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.habitat-slide-right-enter,
+.habitat-slide-right-leave-to {
+  transform: translateX(-10px);
+  opacity: 0;
+}
+
+// Reply message box animation
+.habitat-slide-up-enter-active {
+  transition: all 0.3s ease;
+}
+.habitat-slide-up-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.habitat-slide-up-enter,
+.habitat-slide-up-leave-to {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+// Scroll down icon animation
+.habitat-bounce-enter-active {
+  animation: habitat-bounce-in 0.5s;
+}
+
+.habitat-bounce-leave-active {
+  animation: habitat-bounce-in 0.3s reverse;
+}
+
+@keyframes habitat-bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+// Open media preview animation
+.habitat-fade-preview-enter {
+  opacity: 0;
+}
+
+.habitat-fade-preview-enter-active {
+  transition: opacity 0.1s;
+}
+
+.habitat-fade-preview-leave-active {
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.habitat-bounce-preview-enter-active {
+  animation: habitat-bounce-image-in 0.4s;
+}
+
+.habitat-bounce-preview-leave-active {
+  animation: habitat-bounce-image-in 0.3s reverse;
+}
+
+@keyframes habitat-bounce-image-in {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

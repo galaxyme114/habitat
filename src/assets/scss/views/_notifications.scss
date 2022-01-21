@@ -1,0 +1,19 @@
+#notifications {
+  #header {
+
+  }
+
+  .clear-all {
+    color: #f26b6b;
+    cursor: pointer;
+
+    &:hover {
+      color: #f53939;
+      text-decoration: underline;
+    }
+  }
+
+  .notification {
+    border-bottom: 1px solid;
+  }
+}

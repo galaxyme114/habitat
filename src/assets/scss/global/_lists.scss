@@ -1,0 +1,41 @@
+// List Styles
+
+ul.list-checked {
+  margin: 0;
+  padding: 0;
+  li {
+    display: flex;
+    list-style: none;
+    margin-bottom: 1rem;
+
+    .Streamline_Icon {
+      margin-right: 1rem;
+    }
+  }
+}
+
+// Breadcrumbs
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  font-size: 0.8rem;
+
+  a {
+    color: $gray-600;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      color: $gray-500;
+    }
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: '>';
+  }
+}

@@ -1,0 +1,124 @@
+// CUSTOM COLOURS
+$habitat-green-dark: #2a5a57;
+$habitat-green: #a7c7c5;
+$habitat-green-light: #e9f4f3;
+$habitat-coral: #f26b6b;
+
+$habitat-black: #000000;
+$habitat-grey-dark: #1e212b;
+$habitat-grey: #8c8d92;
+$habitat-grey-light: #e8e8e9;
+$habitat-grey-lighter: #f8f8f8;
+
+$roomplanner-icon: #1e212b;
+$roomplanner-green-dark: $habitat-green-dark;
+$roomplanner-green: #cae5e3;
+$roomplanner-green-light: #e9f4f3;
+
+// FONTS
+$nexa-regular: 300;
+$nexa-bold: 500;
+$nexa-xbold: 600;
+$nexa-book: 300;
+
+// COLOURS
+$primary: $habitat-coral;
+$secondary: $habitat-green;
+
+// MISC
+$topbar-height: 70px;
+
+$body-bg: #fff;
+$body-color: $habitat-grey-dark;
+
+// GRID
+$grid-gutter-width: 32px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1544px
+);
+
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: (
+    $spacer * 0.5
+  ),
+  2: $spacer,
+  3: $spacer * 1.5,
+  4: (
+    $spacer * 2
+  ),
+  5: (
+    $spacer * 2.5
+  ),
+  6: (
+    $spacer * 3
+  ),
+  7: (
+    $spacer * 3.5
+  ),
+  8: (
+    $spacer * 4
+  )
+);
+
+// FEATURES
+$enable-rounded: true;
+$enable-caret: false;
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+// $font-family-base: 'Nexa', $font-family-sans-serif;
+$font-family-base: 'Poppins', sans-serif;
+
+$enable-responsive-font-sizes: true !default;
+
+// TYPOGRAPHY
+$font-size-base: 1rem;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-sm: $font-size-base * 0.75;
+
+$font-weight-bold: $nexa-bold;
+$font-weight-bolder: $nexa-xbold;
+
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 1.8;
+$h3-font-size: $font-size-base * 1.6;
+$h4-font-size: $font-size-base * 1.4;
+$h5-font-size: $font-size-base * 1.1;
+$h6-font-size: $font-size-base;
+
+$headings-font-weight: $nexa-xbold;
+
+$navbar-brand-font-size: 1rem;
+$navbar-light-color: rgba($habitat-grey-dark, 0.7);
+$navbar-light-hover-color: rgba($habitat-grey-dark, 0.9);
+$navbar-light-active-color: $habitat-grey-dark;
+$navbar-nav-link-padding-x: 1.5rem;
+
+$line-height-base: 1.25;
+$line-height-lg: 1.25;
+$line-height-sm: 1.25;
+
+$input-btn-padding-y: 0.625rem;
+$input-btn-padding-x: 0.75rem;
+
+$input-border-radius: 1rem;
+$input-font-weight: $nexa-bold;
+
+$input-line-height: 1.25;
+$input-padding-y: $input-btn-padding-y;
+$input-height-border: 2px;
+$input-height: add($input-line-height * 1em, add($input-padding-y * 2, add($input-height-border, 0.125rem, false), false));
+
+$input-btn-focus-color: rgba(#cae5e3, 0.6) !default;
+// $input-btn-focus-box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.3) !default;
+
+$input-placeholder-color: #999999;
+$input-plaintext-color: #000000;

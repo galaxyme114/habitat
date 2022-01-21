@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 103 103" enable-background="new 0 0 103 103" xml:space="preserve">
+<g id="single-door" display="none">
+	
+		<rect id="door-core" x="18" y="19" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="65"/>
+	
+		<rect id="stub" x="84" y="77" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="7"/>
+	<path id="door-angle" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M85.63,77
+		C82.13,44.39,54.53,19,21,19l0,0v65"/>
+</g>
+<g id="double-door" display="none">
+	<g id="door-1" display="inline">
+		
+			<rect id="door-core_2_" x="3.5" y="29" fill="#FFFFFF" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+		<path id="door-angle_1_" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M51.5,74
+			c0-24.85-20.15-45-45-45l0,0"/>
+	</g>
+	<g id="door-2" display="inline">
+		<path id="door-angle_2_" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M51.5,74
+			c0-24.85,20.15-45,45-45l0,0"/>
+		
+			<rect id="door-core_1_" x="96.5" y="29" fill="#FFFFFF" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+	</g>
+</g>
+<g id="acting-door" display="none">
+	
+		<rect id="door-core_3_" x="26.75" y="6.5" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+	
+		<line id="door-core-guide_1_" display="inline" fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" x1="26.75" y1="96.5" x2="26.75" y2="51.5"/>
+	
+		<line id="door-core-guide" display="inline" fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" x1="29.75" y1="96.5" x2="29.75" y2="51.5"/>
+	
+		<path id="door-angle-guide" display="inline" fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" d="
+		M29.75,96.5c24.85,0,45-20.15,45-45"/>
+	<path id="door-angle_3_" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="
+		M74.47,46.42C71.94,23.96,52.89,6.5,29.75,6.5l0,0"/>
+	
+		<rect id="stub_1_" x="73.25" y="46.5" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="5"/>
+</g>
+<g id="double-acting-door" display="none">
+	<g id="door-2_1_" display="inline">
+		
+			<rect id="door-core_4_" x="3.48" y="6.5" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+		<g id="door-core-guide_3_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="3.48" y1="96.5" x2="3.48" y2="95.5"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.0476,2.0476" x1="3.48" y1="93.45" x2="3.48" y2="53.52"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="3.48" y1="52.5" x2="3.48" y2="51.5"/>
+			</g>
+		</g>
+		<g id="door-core-guide_2_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="6.48" y1="96.5" x2="6.48" y2="95.5"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.0476,2.0476" x1="6.48" y1="93.45" x2="6.48" y2="53.52"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="6.48" y1="52.5" x2="6.48" y2="51.5"/>
+			</g>
+		</g>
+		<g id="door-angle-guide_1_">
+			<g>
+				<path fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M6.48,96.5
+					c0.33,0,0.67,0,1-0.01"/>
+				
+					<path fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.9619,1.9619" d="
+					M9.44,96.4c22.82-1.48,41-19.97,42-42.92"/>
+				<path fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M51.47,52.5
+					c0.01-0.33,0.01-0.67,0.01-1"/>
+			</g>
+		</g>
+		<path id="door-angle_4_" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M51.5,51.5
+			c0-24.85-20.15-45-45-45l0,0"/>
+	</g>
+	<g id="door-1_1_" display="inline">
+		
+			<rect id="door-core_5_" x="96.52" y="6.5" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+		<g id="door-core-guide_5_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="99.52" y1="96.5" x2="99.52" y2="95.5"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.0476,2.0476" x1="99.52" y1="93.45" x2="99.52" y2="53.52"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="99.52" y1="52.5" x2="99.52" y2="51.5"/>
+			</g>
+		</g>
+		<g id="door-core-guide_4_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="96.52" y1="96.5" x2="96.52" y2="95.5"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.0476,2.0476" x1="96.52" y1="93.45" x2="96.52" y2="53.52"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="96.52" y1="52.5" x2="96.52" y2="51.5"/>
+			</g>
+		</g>
+		<g id="door-angle-guide_2_">
+			<g>
+				<path fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M51.52,51.5
+					c0,0.33,0,0.67,0.01,1"/>
+				
+					<path fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.9619,1.9619" d="
+					M51.62,54.46c1.48,22.82,19.97,41,42.92,42"/>
+				<path fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M95.52,96.49
+					c0.33,0.01,0.67,0.01,1,0.01"/>
+			</g>
+		</g>
+		<path id="door-angle_5_" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M96.5,6.5L96.5,6.5
+			c-24.85,0-45,20.15-45,45"/>
+	</g>
+</g>
+<g id="pocket-door" display="none">
+	
+		<rect id="stub_3_" x="96.08" y="49" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="5"/>
+	
+		<rect id="stub_2_" x="43.92" y="49" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="5"/>
+	<g id="door-core_6_" display="inline">
+		<rect x="34.33" y="50" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="9.58" height="3"/>
+		<rect x="46.92" y="50" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="27.42" height="3"/>
+	</g>
+	<g id="door-core-guide_11_" display="inline">
+		<g>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="34.33" y1="53" x2="33.33" y2="53"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.8945,1.8945" x1="31.44" y1="53" x2="5.86" y2="53"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="4.92" y1="53" x2="3.92" y2="53"/>
+		</g>
+	</g>
+	<g id="door-core-guide_6_" display="inline">
+		<g>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="3.92" y1="50" x2="4.92" y2="50"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.8945,1.8945" x1="6.81" y1="50" x2="32.39" y2="50"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="33.33" y1="50" x2="34.33" y2="50"/>
+		</g>
+	</g>
+</g>
+<g id="double-pocket-door" display="none">
+	<g id="door-1_2_" display="inline">
+		
+			<rect id="stub_4_" x="23.67" y="49" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="5"/>
+		<g id="door-core_7_">
+			<rect x="21.35" y="50" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="2.32" height="3"/>
+			<rect x="26.67" y="50" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="16.82" height="3"/>
+		</g>
+		<g id="door-core-guide_13_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="21.35" y1="53" x2="20.35" y2="53"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.1189,2.1189" x1="18.23" y1="53" x2="6.58" y2="53"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="5.52" y1="53" x2="4.52" y2="53"/>
+			</g>
+		</g>
+		<g id="door-core-guide_12_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="4.52" y1="50" x2="5.52" y2="50"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.1189,2.1189" x1="7.64" y1="50" x2="19.29" y2="50"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="20.35" y1="50" x2="21.35" y2="50"/>
+			</g>
+		</g>
+	</g>
+	<g id="door-2_2_" display="inline">
+		
+			<rect id="stub_5_" x="76.33" y="49" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="5"/>
+		<g id="door-core_8_">
+			<rect x="79.33" y="50" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="2.32" height="3"/>
+			<rect x="59.52" y="50" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="16.82" height="3"/>
+		</g>
+		<g id="door-core-guide_18_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="81.65" y1="50" x2="82.65" y2="50"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.1189,2.1189" x1="84.77" y1="50" x2="96.42" y2="50"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="97.48" y1="50" x2="98.48" y2="50"/>
+			</g>
+		</g>
+		<g id="door-core-guide_14_">
+			<g>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="98.48" y1="53" x2="97.48" y2="53"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.1189,2.1189" x1="95.36" y1="53" x2="83.71" y2="53"/>
+				
+					<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="82.65" y1="53" x2="81.65" y2="53"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="opening-door" display="none">
+	
+		<rect id="door-core_9_" x="17" y="48" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="69" height="7"/>
+</g>
+<g id="door-bypass">
+	
+		<rect id="door-core_11_" x="11.5" y="46.5" fill="#FFFFFF" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="40" height="7"/>
+	
+		<rect id="door-core_10_" x="41.5" y="53.5" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="40" height="3"/>
+	
+		<rect id="stub_7_" x="91.5" y="46.5" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="7"/>
+	
+		<rect id="stub_6_" x="8.5" y="46.5" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="7"/>
+</g>
+<g id="door-garage" display="none">
+	
+		<rect id="door-core_12_" x="16.5" y="56.42" display="inline" fill="#FFFFFF" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="70" height="8"/>
+	<g id="door-core-guide_15_" display="inline">
+		<g>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="86.5" y1="56.58" x2="86.5" y2="55.58"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.7778,1.7778" x1="86.5" y1="53.8" x2="86.5" y2="40.47"/>
+			<polyline fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="86.5,39.58 
+				86.5,38.58 85.5,38.58 			"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.9429,1.9429" x1="83.56" y1="38.58" x2="18.47" y2="38.58"/>
+			<polyline fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="17.5,38.58 
+				16.5,38.58 16.5,39.58 			"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.7778,1.7778" x1="16.5" y1="41.36" x2="16.5" y2="54.69"/>
+			
+				<line fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" x1="16.5" y1="55.58" x2="16.5" y2="56.58"/>
+		</g>
+	</g>
+</g>
+</svg>

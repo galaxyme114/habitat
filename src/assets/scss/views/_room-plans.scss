@@ -1,0 +1,182 @@
+#room-planner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#stage {
+  background-color: #FFF;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.cursor-pointer {
+    cursor: pointer;
+  }
+  &.cursor-grab {
+    cursor: grab;
+  }
+  &.cursor-grabbing {
+    cursor: grabbing;
+  }
+}
+
+#actions {
+  left: 1rem;
+  top: 1rem;
+}
+
+#controls {
+  top: 1rem;
+  right: 1rem;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 4px #0000000D;
+  }
+
+  hr {
+    margin: 0.5rem 0.25rem;
+    border-top: 2px solid $habitat-grey;
+  }
+
+  .top {
+    margin-bottom: 0.5rem;
+  }
+
+  .pan {
+    margin-bottom: 0.5rem;
+  }
+}
+
+#actions,
+#element-actions {
+  background-color: #fff;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px #0000000d;
+}
+
+#actions,
+#controls,
+#element-actions {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  hr {
+    margin: 0.5rem 0.25rem;
+    border-top: 2px solid $habitat-grey;
+  }
+
+  button {
+    display: block;
+    margin: 0.25rem;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    padding: 0.5rem 0.5rem;
+
+    @include animAll;
+
+    &:focus, &:active {
+      outline: none;
+    }
+
+    &:hover {
+      background-color: $roomplanner-green-light
+    }
+
+    &.active {
+      background-color: $roomplanner-green-light
+    }
+  }
+
+  .form-group {
+    margin: 0.25rem;
+  }
+
+  select {
+    border-radius: 0.25rem;
+  }
+}
+
+#element-actions {
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  button {
+    padding-top: 0.75rem;
+  }
+
+  .Streamline_Icon {
+    padding: 0.5rem;
+  }
+}
+
+.drag-container {
+  > div {
+    margin-bottom: 1rem;
+    width: 50%;
+    padding-bottom: 50%;
+  }
+
+  .window {
+    background-color: $habitat-green-dark;
+  }
+
+  .door {
+    background-color: $habitat-coral;
+  }
+}
+
+.roomplanner-tooltip {
+  .arrow {
+    display: none;
+  }
+
+  .tooltip-inner {
+    background: #CAE5E3;
+    color: #2A5A57;
+    font-size: 12px;
+    font-weight: $nexa-bold;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .Streamline_Icon {
+    display: block;
+    margin-right: 4px;
+  }
+}
+
+#bottom-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+}

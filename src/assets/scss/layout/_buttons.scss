@@ -1,0 +1,97 @@
+.btn-rounded {
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: $nexa-xbold;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.btn-primary {
+    color: #fff;
+  }
+  &.btn-secondary {
+    color: #fff;
+    background-color: #a7c7c5;
+    border: none;
+  }
+}
+
+.btn-light {
+  color: $habitat-grey-dark !important;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.btn-loader {
+  position: relative;
+  overflow: hidden;
+
+  .loader {
+    background-color: inherit;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.loader {
+  background-color: inherit;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.btn-dotted {
+  border: 1px dashed #d5d8e2;
+  color: #000;
+  width: 25%;
+  padding-bottom: 25%;
+  position: relative;
+
+  @include animAll;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  @include hover-focus-active {
+    border-color: $habitat-green-dark;
+    color: $habitat-green-dark;
+  }
+}
+
+#filter-button {
+  background-color: transparent !important;
+  color: $habitat-grey-dark;
+  font-size: 0.9rem;
+  border: none;
+  min-width: fit-content;
+}
+
+#filter-button:focus {
+  outline: none;
+  box-shadow: none;
+}

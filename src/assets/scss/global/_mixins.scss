@@ -1,0 +1,7 @@
+@mixin animAll() {
+  transition: all 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@mixin animTransform() {
+  transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+}

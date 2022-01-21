@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 103 103" enable-background="new 0 0 103 103" xml:space="preserve">
+<g id="single-door">
+	
+		<rect id="door-core" x="18" y="19" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="65"/>
+	
+		<rect id="stub" x="84" y="77" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="7"/>
+	<path id="door-angle" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M85.63,77
+		C82.13,44.39,54.53,19,21,19l0,0v65"/>
+</g>
+<g id="double-door" display="none">
+	<g id="door-1" display="inline">
+		
+			<rect id="door-core_2_" x="3.5" y="29" fill="#FFFFFF" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+		<path id="door-angle_1_" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M51.5,74
+			c0-24.85-20.15-45-45-45l0,0"/>
+	</g>
+	<g id="door-2" display="inline">
+		<path id="door-angle_2_" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="M51.5,74
+			c0-24.85,20.15-45,45-45l0,0"/>
+		
+			<rect id="door-core_1_" x="96.5" y="29" fill="#FFFFFF" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+	</g>
+</g>
+<g id="acting-door" display="none">
+	
+		<rect id="door-core_3_" x="26.75" y="6.5" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="45"/>
+	
+		<line id="door-core-guide_1_" display="inline" fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" x1="26.75" y1="96.5" x2="26.75" y2="51.5"/>
+	
+		<line id="door-core-guide" display="inline" fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" x1="29.75" y1="96.5" x2="29.75" y2="51.5"/>
+	
+		<path id="door-angle-guide" display="inline" fill="none" stroke="#454950" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2" d="
+		M29.75,96.5c24.85,0,45-20.15,45-45"/>
+	<path id="door-angle_3_" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" d="
+		M74.47,46.42C71.94,23.96,52.89,6.5,29.75,6.5l0,0"/>
+	
+		<rect id="stub_1_" x="73.25" y="46.5" display="inline" fill="none" stroke="#454950" stroke-linecap="round" stroke-linejoin="round" width="3" height="5"/>
+</g>
+</svg>

@@ -1,0 +1,80 @@
+.list-enter-active {
+  transition: opacity 1s;
+}
+.list-enter, .list-leave-to {
+  opacity: 0;
+}
+.list-leave-active {
+  transition: opacity 0s;
+}
+
+// Vue Fade Transitions
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .25s ease-out;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}
+
+
+//.fade-enter-active, .fade-leave-active {
+//  transition: opacity 0.5s
+//}
+//
+//.fade-enter-active, .fade-leave {
+//  opacity: 1;
+//}
+//
+//.fade-leave-active, .fade-enter {
+//  opacity: 0
+//}
+//
+//.fade-slow-enter-active, .fade-slow-leave-active {
+//  transition: opacity 0.5s
+//}
+//
+//.fade-slow-enter-active, .fade-slow-leave {
+//  opacity: 1;
+//}
+//
+//.fade-slow-leave-active, .fade-slow-enter {
+//  opacity: 0
+//}
+
+//.fade-enter, .fade-leave-to, .fade-leave-active {
+//  opacity: 0
+//}
+
+// Vue Fade/Grow Transitions
+.fade-grow-enter-active, .fade-grow-leave-active {
+  transition: opacity 0.5s, max-height 0.5s;
+}
+
+.fade-grow-enter-active, .fade-grow-leave {
+  opacity: 1;
+  max-height: 3rem;
+}
+
+.fade-grow-leave-active, .fade-grow-enter {
+  opacity: 0;
+  max-height: 0;
+}
+
+.fade-grow-slow-enter-active, .fade-grow-slow-leave-active {
+  transition: opacity 1s, max-height 1s;
+}
+
+.fade-grow-slow-enter-active, .fade-grow-slow-leave {
+  opacity: 1;
+  max-height: 3rem;
+}
+
+.fade-grow-slow-leave-active, .fade-grow-slow-enter {
+  opacity: 0;
+  max-height: 0;
+}
+
+//.fade-grow-enter, .fade-grow-leave-to, .fade-grow-leave-active {
+//  opacity: 0;
+//  max-height: 0;
+//}

@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <g>
+    <polygon points="42 42 42 74 10 74 10 10 74 10 74 42 42 42" fill="#fff"/>
+    <g>
+      <polyline points="43 42 42 42 42 43" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="42" y1="45" x2="42" y2="72" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <polyline points="42 73 42 74 41 74" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="39" y1="74" x2="12" y2="74" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <polyline points="11 74 10 74 10 73" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="10" y1="71" x2="10" y2="12" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <polyline points="10 11 10 10 11 10" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="13" y1="10" x2="72" y2="10" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <polyline points="73 10 74 10 74 11" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="74" y1="13" x2="74" y2="40" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+      <polyline points="74 41 74 42 73 42" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="71" y1="42" x2="44" y2="42" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="2 2"/>
+    </g>
+  </g>
+</svg>

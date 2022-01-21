@@ -1,0 +1,93 @@
+.habitat-channel-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+
+  .habitat-name-container {
+    flex: 1;
+  }
+
+  .habitat-title-container {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+  }
+
+  .habitat-state-circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: var(--chat-channel-color-offline);
+    margin-right: 6px;
+    transition: 0.3s;
+  }
+
+  .habitat-state-online {
+    background-color: var(--chat-channel-color-online);
+  }
+
+  .habitat-channel-name {
+    flex: 1;
+    color: var(--chat-channel-color-username);
+    font-weight: 500;
+  }
+
+  .habitat-text-date {
+    margin-left: 5px;
+    font-size: 11px;
+    color: var(--chat-channel-color-timestamp);
+  }
+
+  .habitat-text-last {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 19px;
+    color: var(--chat-channel-color-message);
+  }
+
+  .habitat-message-new {
+    color: var(--chat-channel-color-username);
+    font-weight: 500;
+  }
+
+  .habitat-icon-check {
+    display: flex;
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+    margin-top: -2px;
+    margin-right: 2px;
+  }
+
+  .habitat-icon-microphone {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    margin: -3px 1px 0 -2px;
+    fill: var(--chat-channel-color-message);
+  }
+
+  .habitat-channel-options-container {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .habitat-channel-badge {
+    background-color: var(--chat-channel-bg-color-badge);
+    color: var(--chat-channel-color-badge);
+    margin-left: 5px;
+  }
+
+  .habitat-list-channel-options {
+    height: 19px;
+    width: 19px;
+    align-items: center;
+    margin-left: 5px;
+  }
+  .b-avatar .b-avatar-badge {
+    min-width: .7rem;
+    min-height: .7rem;
+  }
+}

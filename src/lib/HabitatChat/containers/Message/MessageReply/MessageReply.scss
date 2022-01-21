@@ -1,0 +1,42 @@
+.habitat-reply-message {
+  background: var(--chat-message-bg-color-reply);
+  border-radius: 4px;
+  margin: -1px -5px 8px;
+  padding: 8px 10px;
+
+  .habitat-reply-username {
+    color: var(--chat-message-color-reply-username);
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 2px;
+  }
+
+  .habitat-image-reply-container {
+    width: 70px;
+
+    .habitat-message-image-reply {
+      height: 70px;
+      width: 70px;
+      margin: 4px auto 3px;
+    }
+  }
+
+  .habitat-video-reply-container {
+    width: 200px;
+    max-width: 100%;
+
+    video {
+      border-radius: 4px;
+    }
+  }
+
+  .habitat-reply-content {
+    font-size: 12px;
+    color: var(--chat-message-color-reply-content);
+  }
+
+  .habitat-file-container {
+    height: 60px;
+    width: 60px;
+  }
+}

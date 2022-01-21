@@ -1,0 +1,14 @@
+export default {
+  THICKNESS: 15,
+  HEIGHT: 2400,
+  CORNERDIMENSION: 100,
+  STROKEWIDTH: 15,
+  BORDERRADIUS: 2,
+  COLOURS: {
+    GREY: '#1e212b',
+    PINK: '#f26b6b',
+    WHITE: '#ffffff'
+  },
+  HOVERDURATION: 0.25,
+  SNAP_OFFSET: 5
+}

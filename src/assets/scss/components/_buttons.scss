@@ -1,0 +1,55 @@
+// Custom button styles
+
+.btn {
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn-habitat-filter {
+  .btn {
+    background-color: transparent;
+    border: none;
+    font-size: 0.8rem;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.show {
+      background-color: $habitat-grey-light;
+    }
+  }
+
+  &.show {
+    > .btn-secondary.dropdown-toggle {
+      color: #212529;
+      background-color: $habitat-grey-light;
+      border-color: $habitat-grey-light;
+    }
+  }
+
+  .dropdown-menu {
+    box-shadow: $box-shadow;
+    border: none;
+    .dropdown-item {
+      padding: 0.3rem 0.7rem;
+      font-size: 0.9rem;
+
+      &:hover {
+        background-color: $habitat-green-light;
+        color: $habitat-green-dark;
+      }
+    }
+  }
+}
+
+// Breadcrumbs
+.btn-back {
+  font-size: 0.7rem;
+  color: $gray-600;
+  padding: 4px 0px;
+
+  &:hover {
+    color: $gray-600;
+  }
+}

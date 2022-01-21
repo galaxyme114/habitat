@@ -1,0 +1,505 @@
+// .breadcrumb {
+//   background-color: transparent;
+
+//   @include media-breakpoint-down(md) {
+//     padding: 0;
+//     font-size: 14px;
+//   }
+// }
+
+h1 {
+  font-weight: normal;
+}
+
+.habitat-landing-template {
+  .hero-image {
+    img {
+      max-width: 60px;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.team-member {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+
+  img {
+    width: 50px;
+    height: auto;
+    border-radius: 16px;
+    border: 1px solid white;
+  }
+
+  .team-member-info {
+    padding: 0px 10px 0px 20px;
+  }
+
+  .team-member-email {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+  }
+
+  .team-member-options {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+
+  .team-member-options:hover,
+  .team-member-options:focus,
+  .team-member-options:active {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #e9f4f3;
+  }
+}
+
+.habitat-preview-container {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+  margin-bottom: 30px;
+  box-shadow: $box-shadow;
+  border-radius: 20px;
+  background-color: white;
+  width: 100%;
+
+  @include media-breakpoint-down(sm) {
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .habitat-preview-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0rem;
+
+    .project-names {
+      height: 15px;
+      font-size: 12px;
+      font-weight: $nexa-regular;
+    }
+
+    small {
+      font-weight: 300;
+      font-size: 12px;
+      color: $habitat-grey;
+    }
+
+    .habitat-preview-image {
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      border-radius: 20px 20px 0px 0px;
+
+      .title {
+        font-size: 16px;
+        font-weight: $nexa-xbold;
+      }
+    }
+
+    .missing-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      height: 200px;
+      border: 1px dashed #d5d8e2;
+      cursor: pointer;
+
+      a {
+        background-color: white;
+        color: black;
+        border: none;
+        font-size: 13px;
+        font-weight: 300;
+
+        svg {
+          display: block;
+          color: $secondary;
+          margin: 0 auto 5px auto;
+        }
+      }
+    }
+
+    #habitat-info {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background-color: white;
+      }
+
+      button:focus {
+        box-shadow: none;
+      }
+
+      .habitat-owner {
+        width: 32px;
+        height: 32px;
+
+        > img {
+          width: 100%;
+          height: auto;
+          border-radius: 16px;
+          border: 1px solid white;
+        }
+      }
+
+      .habitat-user {
+        margin-left: -5px;
+      }
+    }
+
+    .b-avatar-group .b-avatar {
+      border: none !important;
+      background-color: #a7c7c5 !important;
+    }
+  }
+
+  .habitat-action {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+
+    .btn {
+      border-radius: 20px;
+      padding: 5px;
+    }
+  }
+}
+
+.upload-message {
+  padding: 10px;
+  background-color: #a7c7c5;
+  border-radius: 10px;
+  color: #fff;
+  align-self: center;
+  cursor: pointer;
+}
+
+.dz-message {
+  display: flex;
+  justify-content: center;
+}
+
+// Popovers
+#add-image-popover {
+  .popover-body {
+    padding: 0;
+  }
+
+  .popover-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .popover-item:hover {
+    background-color: #e9f4f3;
+  }
+}
+
+#add-content-popover {
+  > .popover-body {
+    padding: 0;
+
+    div {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    div:hover {
+      background-color: #e9f4f3;
+      color: #89a6a5;
+
+      path {
+        stroke: #89a6a5;
+      }
+    }
+  }
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+#settings-menu-popover,
+#filter-menu-popover {
+  background-color: white;
+  border-color: white;
+  box-shadow: $box-shadow;
+
+  .popover-body {
+    padding: 0;
+    right: 0;
+    left: auto;
+    min-width: 100px;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .dropdown-item {
+    font-size: 0.9rem;
+    font-weight: $nexa-bold;
+    padding: 10px 30px 10px 15px;
+  }
+
+  .dropdown-item:hover {
+    font-weight: $nexa-bold;
+    color: #2a5a57;
+    background-color: #e9f4f3;
+
+    path {
+      stroke: #89a6a5;
+    }
+  }
+}
+
+#team-member-settings-menu {
+  left: 15px !important;
+
+  .popover-body {
+    padding: 5px 0px;
+  }
+
+  .dropdown-item {
+    padding: 10px;
+    width: 175px;
+  }
+
+  .dropdown-item:hover {
+    background-color: #e9f4f3;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+.vue-dropzone {
+  border: 2px dashed #e5e5e5;
+  border-radius: 20px;
+}
+
+#add-link-modal {
+  .load-button {
+    border-radius: 0.5rem;
+    min-width: 0px;
+    width: 75px;
+    margin-left: 10px;
+  }
+
+  #link-preview {
+    margin-top: 24px;
+    border-radius: 16px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-img-top {
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+    }
+
+    a {
+      margin-left: 8px;
+    }
+  }
+}
+
+#no-projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  img {
+    width: inherit;
+    max-width: 550px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-weight: $nexa-bold;
+  }
+}
+
+.content {
+  overflow: auto;
+  width: 80%;
+  justify-content: center;
+
+  @include media-breakpoint-down(md) {
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.heading {
+  width: 80%;
+  flex-direction: 'column';
+
+  @include media-breakpoint-down(md) {
+    width: 100%;
+  }
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.modal-backdrop {
+  opacity: 0.7 !important;
+}
+
+.divider {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 1px;
+  margin: 5px;
+}
+
+.title-box {
+  padding: 0px 150px;
+
+  @include media-breakpoint-down(lg) {
+    padding: 0;
+    width: 100%;
+  }
+
+  #settings-button {
+    display: flex;
+    align-items: center;
+    min-width: 110px;
+    padding: 0.5rem 1rem;
+    height: 50px;
+
+    @include media-breakpoint-down(lg) {
+      height: auto;
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+
+    span {
+      margin-right: 10px;
+      margin-bottom: 5px;
+
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 0px;
+
+        svg {
+          height: 16px !important;
+          width: 16px !important;
+        }
+      }
+    }
+  }
+
+  .habitat-address {
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: $nexa-book;
+  }
+
+  .pills-container {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d5d8e2;
+
+    @include media-breakpoint-down(md) {
+      flex-wrap: nowrap;
+      width: 100%;
+      overflow-x: auto;
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .pill {
+      cursor: pointer;
+      background-color: #fff;
+      border-radius: 24px;
+      box-shadow: 0px 4px 8px rgba(30, 33, 43, 0.05);
+      padding: 10px 20px;
+      margin: 10px;
+
+      @include media-breakpoint-down(md) {
+        padding: 5px 10px;
+        margin: 5px;
+        font-size: 12px;
+      }
+
+      .pill-badge {
+        width: 40px;
+        height: 28px;
+        color: #2a5a57;
+        background-color: #cae5e3;
+        border-radius: 16px;
+      }
+    }
+  }
+}
+
+#editorjs {
+  padding: 0px 25px;
+}
+
+.last-updated {
+  font-size: 12px;
+  font-weight: $nexa-regular;
+  color: rgba(30, 33, 43, 0.5);
+}
+
+#no-inspiration {
+  align-self: center;
+}
+
+.inspiration-image {
+  .delete-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+  }
+
+  .tag-container {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .tag {
+    padding: 5px 10px;
+    border-radius: 24px;
+    background-color: #d8eae0;
+    display: inline-block;
+    margin: 5px;
+    text-transform: capitalize;
+    font-size: 12px;
+  }
+}

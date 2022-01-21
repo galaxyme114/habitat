@@ -1,0 +1,20 @@
+.notifications {
+  .toasted.outline {
+    &.default {
+      color: $habitat-green-dark;
+      border-color: $habitat-green-dark;
+    }
+    &.success {
+      color: $success;
+      border-color: $success;
+    }
+    &.info {
+      color: $info;
+      border-color: $info;
+    }
+    &.error {
+      color: $danger;
+      border-color: $danger;
+    }
+  }
+}

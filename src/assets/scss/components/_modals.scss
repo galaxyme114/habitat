@@ -1,0 +1,194 @@
+#new-habitat-modal,
+#project-settings-modal,
+#habitat-settings-modal {
+  .modal-content {
+    border-radius: 16px;
+    transition: all 2s;
+  }
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 0;
+
+    #close-button {
+      padding-right: 20px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      border-right: 2px solid #d5d8e2;
+    }
+    #title {
+      font-size: 16px;
+      font-weight: $nexa-xbold;
+      padding-bottom: 15px;
+      padding-top: 10px;
+      box-shadow: 0 6px 0 -4px #000000;
+    }
+  }
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    #tag-input {
+      border: none;
+      padding: 5px;
+      border-bottom: 2px solid #d5d8e2;
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+    }
+    #tag-input:focus {
+      outline: none;
+    }
+
+    #tag-input::placeholder {
+      color: #B6B7BA;
+      font-weight: $nexa-bold;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .followed-project-tags {
+      padding: 10px 0px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      .tag-pill {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 10px;
+        background-color: white;
+        margin: 5px;
+        border-radius: 24px;
+        border: 1px solid #D5D8E2;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: $nexa-xbold;
+        .Streamline_Icon {
+          margin-left: 10px;
+          padding-left: 10px;
+          border-left: 1px solid #D5D8E2;
+        }
+        span {
+          color: #D5D8E2;
+          font-size: 12pt;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  #name-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d5d8e2;
+    margin-bottom: 1rem;
+    input {
+      width: 388px;
+    }
+    #settings-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 50px;
+      margin-top: 13px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ced4da;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+      cursor: pointer;
+    }
+    .settings-button-active {
+      background-color: #e9f4f3;
+      border: 1px solid #2a5a57 !important;
+      path {
+        stroke: #2a5a57;
+      }
+    }
+    #settings-button:hover {
+      background-color: #e9f4f3;
+      border-color: #2a5a57;
+      path {
+        stroke: #2a5a57;
+      }
+    }
+  }
+  .settings-wrap {
+    display: none;
+    height: 0px;
+    #teammates-wrap {
+      display: flex;
+      flex-direction: column;
+      #teammates {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .teammate {
+          border: 1px solid #d5d8e2;
+          border-radius: 24px;
+          display: inline-block;
+          padding: 10px;
+          margin: 5px;
+          font-size: 12px;
+          font-weight: $nexa-xbold;
+        }
+        .remove-teammate {
+          padding-left: 10px;
+          padding-top: 3px;
+          padding-bottom: 3px;
+          margin-left: 20px;
+          border-left: 1px solid #d5d8e2;
+          cursor: pointer;
+          path {
+            stroke-width: 2px;
+          }
+        }
+      }
+    }
+  }
+  .show {
+    display: block;
+    height: 100%;
+  }
+}
+
+#article-creation-modal {
+  .modal-footer {
+    display: block;
+  }
+  .article-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .left {
+      .vs__dropdown-toggle {
+        width: 225px;
+      }
+    }
+
+    .right {
+      .button {
+        border-radius: 24px;
+        font-size: 16px;
+        font-weight: $nexa-xbold;
+        height: 40px;
+        border: none;
+      }
+      .draft {
+        width: 117px;
+        color: black;
+        background-color: #F8F8F8;
+      }
+      .publish {
+        width: 90px;
+        color: white;
+        background-color: #F26B6B;
+        margin-left: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.habitat-channel-header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  z-index: 9;
+  margin-right: 1px;
+  background: var(--chat-header-bg-color);
+  border-top-right-radius: var(--chat-container-border-radius);
+
+  .habitat-channel-wrapper {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .habitat-toggle-button {
+    margin-right: 15px;
+
+    svg {
+      height: 26px;
+      width: 26px;
+    }
+  }
+
+  .habitat-rotate-icon {
+    transform: rotate(180deg) !important;
+  }
+
+  .habitat-info-wrapper {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .habitat-channel-name {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    color: var(--chat-header-color-name);
+  }
+
+  .habitat-channel-info {
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--chat-header-color-info);
+  }
+
+  .habitat-channel-options {
+    margin-left: auto;
+  }
+
+  .badge-online {
+    background-color: rgb(77, 217, 101);
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+  .badge-offline {
+    background-color: rgb(255, 193, 7);
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 50px;
+
+    .habitat-channel-wrapper {
+      padding: 0 10px;
+    }
+
+    .habitat-channel-name {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .habitat-channel-info {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    .habitat-avatar {
+      height: 37px;
+      width: 37px;
+      min-height: 37px;
+      min-width: 37px;
+    }
+  }
+}

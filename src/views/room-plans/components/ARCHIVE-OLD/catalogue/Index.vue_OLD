@@ -1,0 +1,26 @@
+<template>
+  <div class="catalogue">
+    <panels ref="panels" type="catalogue"/>
+  </div>
+</template>
+<script>
+import Panels from './Panels'
+export default {
+  components: {
+    Panels
+  }
+}
+</script>
+<style lang="scss">
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  width: 240px
+}
+.drag-box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: grab;
+}
+</style>
